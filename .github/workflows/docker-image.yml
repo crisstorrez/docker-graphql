@@ -49,6 +49,5 @@ jobs:
       run: |
         docker push crisstorrez/docker-graphql:$NEW_VERSION
         docker push crisstorrez/docker-graphql:latest
-        
-#    - name: Build the Docker image
-#     run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+     
+
